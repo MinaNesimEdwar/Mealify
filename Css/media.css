@@ -1,0 +1,166 @@
+@media screen and (min-width:768px) {
+    /* The start of home section */
+    .home .home-caption .links{
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 30px;
+    }
+    /* The end of home section */
+
+    /* The start of chefs section */
+    .chefs .items{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .chefs .items .chef{
+        width: 48%;
+        margin: 15px 0;
+    }
+    /* The end of chefs section */
+
+    /* The start of gallery section */
+    .gallery .layout{
+        display: flex;
+        gap: 20px;
+    }
+    /* The end of gallery section */
+
+    /* The start of contact section */
+    .contact .container{
+        width: 80%;
+    }
+    .contact .contact-items{
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .contact .contact-items .item{
+        width: 49%;
+    }
+    /* The end of contact section */
+
+    /* The star of footer section */
+    .footer .container{
+        width: 90%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .footer .container .col-1{
+        width: 50%;
+    }
+    .footer .container .col-1 .social i{
+        padding: 0 25px ; 
+    }
+    .footer .container .col-2{
+        order: 2;
+    }
+    .footer .container .col-2 form{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer .container .col-2 form input{
+        width: 80%;
+        padding: 10px;
+    }
+    .footer .container .col-2 form button{
+        width: 19%;
+    }
+    .footer .container .col-3{
+        width: 50%;
+        order: 1;
+    }
+    /* The end of footer section */
+}
+
+
+
+@media screen and (min-width:1024px){
+    /* The start of navbar */
+    nav ul{
+        display: flex;
+    }
+    nav .dark .menu{
+        display: none;
+    }
+    /* The end of navbar */
+
+    /* The start of home section */
+    .home {
+        height: 100vh;
+        padding: 100px 0;
+    }
+    .home .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+    .home .home-image{
+        width: 40%;
+    }
+    .home .home-caption{
+        width: 50%;
+        text-align: left;
+    }
+    .home .home-caption p{
+        width:80%;
+    }
+    .home .home-caption .links{
+        justify-content: flex-start;
+    }
+    .home .home-caption .links .book{
+        border-top-left-radius:0;
+    }
+    /* The end of home section */
+
+    /* The start of chefs section */
+    .chefs .items .chef{
+         width: 32%;
+    }
+    /* The end of chefs section */
+
+    /* The start of gallery section */
+    .gallery .layout{
+        display: flex;
+        gap: 15px;
+    }
+    /* The end of gallery section */
+
+    /* The start of contact section */
+    .contact .container{
+            width: 90%;
+        }
+    .contact form{
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .contact form .special{
+        width: 49%;
+    }
+    .contact  form button{
+        margin: auto;
+        margin-top: 20px;
+    }
+    /* The end of contact section */
+
+    /* The start of footer section */
+    .footer .container{
+        justify-content: space-between;
+    }
+    .footer .container .col-1{
+        width: 25%;
+    }
+    .footer .container .col-2{
+        width: 48%;
+        order: 1;
+    }
+    .footer .container .col-3{
+        width: 25%;
+        order: 2;
+    }
+    /* The end of footer section */
+}
